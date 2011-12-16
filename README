@@ -31,7 +31,7 @@ Each file/folder is followed by a short description on its role.
 
 At a minimum, you will probably need to edit the build.xml, CREDITS and README
 files. In most cases, you only need to replace occurrences of
-"Erebot_Module_Skeleton" with the need for your new module.
+"Erebot_Module_Skeleton" with the name of your new module.
 
 In addition, you may need to replace the content of the LICENSE file to reflect
 the actual license used by your module.
