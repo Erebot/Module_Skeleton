@@ -17,9 +17,10 @@
 /*.pem
 /*.phar
 /*.pubkey
-/*.tgz
 
 # A tagfile is automatically generated
 # during a call to "phing doc".
 /*.tagfile.xml
 
+# Ignore the vendor/ directory created by composer.
+/vendor

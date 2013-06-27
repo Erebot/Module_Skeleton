@@ -10,28 +10,27 @@ Folders are indicated using a trailing "/" following their name (eg. "src/").
 Each file/folder is followed by a short description on its role.
 ```
  /
- |- buildenv/           Git submodule containing additional files for Phing.
- |- build.xml           A description of the tasks usable with Phing.
- |- CREDITS             A list of people involved with the module.
+ |- build.xml           A description of the tasks usable with Phing
+ |                      (overrides vendor/erebot/buildenv/build.xml).
+ |- composer.json       Package description for Composer.
  |- data/               Static files used by the module.
- |  `- i18n/            Translation catalogs for the module.
- |- docs/               Everything that relates to the documentation.
+ |  `- i18n/            Translation catalogs for the module
+ |                      (updated automatically by a call to "phing").
+ |- docs/               Everything that relates to the documentation
+ |  |                   (sub-folders are automatically created by Phing, Doxygen, ...).
  |  `- src/             Sources for the end-user documentation.
- |- Doxyfile            Doxygen configuration (overrides buildenv/Doxyfile).
+ |- Doxyfile            Doxygen configuration
+ |                      (overrides vendor/erebot/buildenv/Doxyfile).
  |- LICENSE             License for the module.
- |- packagexmlsetup.php Configuration for Pyrus.
  |- README              README information for the module (this file)
  |- src/                Source code for the module.
- |- stub.php            Configuration for Pyrus.
  |- tests/              (Unit) Tests for the module (compatible with PHPUnit).
- |  `- testenv/         Additional files intended for use with PHPUnit.
- `- vendor/             External dependencies for the module.
-    `- Erebot_API/      Git submodule containing Erebot's API.
+ `- vendor/             Dependencies for the module, managed by Composer.
 ```
 
-At a minimum, you will probably need to edit the build.xml, CREDITS and README
-files. In most cases, you only need to replace occurrences of
-"Erebot_Module_Skeleton" with the name of your new module.
+At a minimum, you will probably need to edit build.xml, composer.json and README.
+In most cases, you only need to replace occurrences of "Erebot_Module_Skeleton"
+with the name of your new module.
 
 In addition, you may need to replace the content of the LICENSE file to reflect
 the actual license used by your module.
@@ -39,21 +38,16 @@ the actual license used by your module.
 Once this is done, you may start adding code under the src/ folder.
 Well, actually, you'll need to create a folder structure under src/ matching
 the names of the classes in your code.
-For example, the class "Erebot_Module_Skeleton" really belongs to this file:
-"src/Erebot/Module/Skeleton.php".
+For example, the class ``Erebot_Module_Skeleton`` really belongs to
+``src/Erebot/Module/Skeleton.php``.
 
-Now, to test your module, add a symbolic link with your module's name in
-Erebot's vendor/ folder and pointing to this folder. If this is not possible
-(eg. Windows) or you don't feel like it, you can also drop a copy of this
-folder under Erebot's vendor/ folder. In the later case, you must rename
-the target folder so that its name matches the name of your module.
+Now, to test your module, add the module to Erebot's composer.json and update
+your Erebot installation with::
+
+    $ php /path/to/composer.phar update
 
 Then, add the configuration for your module in Erebot's configuration file and
 start Erebot normally. It should detect your module and configure it with the
 correct settings.
-
-Last but not least: remember to check the contents of the submodules (buildenv,
-testenv & Erebot_API) and update them in order to benefit from the latest
-developments.
 
 Voilà!
