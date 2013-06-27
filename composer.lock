@@ -1,0 +1,129 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "bff1a214b582327059f6b625e496de5d",
+    "packages": [
+        {
+            "name": "erebot/generic-doc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Erebot/Erebot_Module_Skeleton_Doc.git",
+                "reference": "6864d4b0b3ef044836d0a4d26df8b1df933fb91d"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://packages.erebot.net:943/composer/erebot-generic-doc-6864d4b0b3ef044836d0a4d26df8b1df933fb91d-zip-f1b4ff.tar",
+                "reference": "dev-master",
+                "shasum": "b0efe0dfb3724e8333545f475bf740f896a77c6d"
+            },
+            "require": {
+                "erebot/installers": "dev-master"
+            },
+            "type": "erebot-generic-doc",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "François Poirotte",
+                    "email": "clicky@erebot.net",
+                    "role": "lead"
+                }
+            ],
+            "description": "Generic documentation for Erebot modules",
+            "homepage": "https://github.com/Erebot/Erebot_Module_Skeleton",
+            "keywords": [
+                "Erebot",
+                "IRC",
+                "bot",
+                "doc",
+                "documentation"
+            ],
+            "support": {
+                "email": "erebot@erebot.net",
+                "issues": "https://github.com/Erebot/Erebot_Module_Skeleton/issues",
+                "wiki": "http://erebot.github.io/Erebot_Module_Skeleton/",
+                "irc": "irc://irc.iiens.net/Erebot",
+                "source": "https://github.com/Erebot/Erebot_Module_Skeleton"
+            },
+            "time": "2013-06-27 20:44:06"
+        },
+        {
+            "name": "erebot/installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Erebot/Erebot_Installers.git",
+                "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://packages.erebot.net:943/composer/erebot-installers-b20c804c270bc6cb51923a6f81cc1ad3b6b09272-zip-2d1a72.tar",
+                "reference": "dev-master",
+                "shasum": "dcf901c8a8ffd3619092c2c5a15de51cf7fb4fbc"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                },
+                "class": "Erebot\\Composer\\GenericDocInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Erebot\\Composer": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "François Poirotte",
+                    "email": "clicky@erebot.net",
+                    "role": "lead"
+                }
+            ],
+            "description": "Composer installers for Erebot",
+            "homepage": "https://github.com/Erebot/Erebot_Installers",
+            "keywords": [
+                "Erebot",
+                "IRC",
+                "bot",
+                "installers"
+            ],
+            "support": {
+                "email": "erebot@erebot.net",
+                "issues": "https://github.com/Erebot/Erebot_Installers/issues",
+                "irc": "irc://irc.iiens.net/Erebot",
+                "source": "https://github.com/Erebot/Erebot_Installers"
+            },
+            "time": "2013-06-27 21:08:41"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "erebot/installers": 20,
+        "erebot/generic-doc": 20
+    },
+    "platform": {
+        "php": ">=5.2.2"
+    },
+    "platform-dev": [
+
+    ]
+}

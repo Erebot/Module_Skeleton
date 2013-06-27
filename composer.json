@@ -25,7 +25,9 @@
         }
     ],
     "require": {
-        "php": ">=5.2.2"
+        "php": ">=5.2.2",
+        "erebot/installers": "dev-master",
+        "erebot/generic-doc": "dev-master"
     },
     "autoload": {
         "psr-0": {
