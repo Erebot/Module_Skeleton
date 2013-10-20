@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bff1a214b582327059f6b625e496de5d",
+    "hash": "9b7abdc45aa18c8f36cf4e5b5db23022",
     "packages": [
         {
             "name": "erebot/generic-doc",
@@ -11,13 +11,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Erebot_Module_Skeleton_Doc.git",
-                "reference": "9a598e24de5a4bf10a3e0d6a8ee3e9a9470a0ea4"
+                "reference": "c727d96114325ec7c4d971b3ee07c93cc7d5bb90"
             },
             "dist": {
-                "type": "tar",
-                "url": "https://packages.erebot.net:943/composer/erebot-generic-doc-9a598e24de5a4bf10a3e0d6a8ee3e9a9470a0ea4-zip-c0a416.tar",
-                "reference": "dev-master",
-                "shasum": "e944b62b3b2d0a468486c15b7679e25b3cdec672"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Erebot/Erebot_Module_Skeleton_Doc/zipball/c727d96114325ec7c4d971b3ee07c93cc7d5bb90",
+                "reference": "c727d96114325ec7c4d971b3ee07c93cc7d5bb90",
+                "shasum": ""
             },
             "require": {
                 "erebot/installers": "dev-master"
@@ -28,6 +28,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0+"
             ],
@@ -42,19 +43,12 @@
             "homepage": "https://github.com/Erebot/Erebot_Module_Skeleton",
             "keywords": [
                 "Erebot",
-                "IRC",
                 "bot",
                 "doc",
-                "documentation"
+                "documentation",
+                "irc"
             ],
-            "support": {
-                "email": "erebot@erebot.net",
-                "issues": "https://github.com/Erebot/Erebot_Module_Skeleton/issues",
-                "wiki": "http://erebot.github.io/Erebot_Module_Skeleton/",
-                "irc": "irc://irc.iiens.net/Erebot",
-                "source": "https://github.com/Erebot/Erebot_Module_Skeleton"
-            },
-            "time": "2013-08-15 13:01:54"
+            "time": "2013-08-16 20:31:07"
         },
         {
             "name": "erebot/installers",
@@ -65,10 +59,10 @@
                 "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272"
             },
             "dist": {
-                "type": "tar",
-                "url": "https://packages.erebot.net:943/composer/erebot-installers-b20c804c270bc6cb51923a6f81cc1ad3b6b09272-zip-2d1a72.tar",
-                "reference": "dev-master",
-                "shasum": "dcf901c8a8ffd3619092c2c5a15de51cf7fb4fbc"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/b20c804c270bc6cb51923a6f81cc1ad3b6b09272",
+                "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272",
+                "shasum": ""
             },
             "type": "composer-installer",
             "extra": {
@@ -82,6 +76,7 @@
                     "Erebot\\Composer": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0+"
             ],
@@ -96,16 +91,10 @@
             "homepage": "https://github.com/Erebot/Erebot_Installers",
             "keywords": [
                 "Erebot",
-                "IRC",
                 "bot",
-                "installers"
+                "installers",
+                "irc"
             ],
-            "support": {
-                "email": "erebot@erebot.net",
-                "issues": "https://github.com/Erebot/Erebot_Installers/issues",
-                "irc": "irc://irc.iiens.net/Erebot",
-                "source": "https://github.com/Erebot/Erebot_Installers"
-            },
             "time": "2013-06-27 21:08:41"
         }
     ],
