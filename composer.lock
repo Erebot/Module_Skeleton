@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9b7abdc45aa18c8f36cf4e5b5db23022",
+    "hash": "e0b8bc1376b2de3f191e4f3df05cb745",
     "packages": [
         {
             "name": "erebot/generic-doc",
@@ -11,16 +11,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Erebot_Module_Skeleton_Doc.git",
-                "reference": "c727d96114325ec7c4d971b3ee07c93cc7d5bb90"
+                "reference": "49d5da55fdda7694a51fbb4675566debedf3a10b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Erebot_Module_Skeleton_Doc/zipball/c727d96114325ec7c4d971b3ee07c93cc7d5bb90",
-                "reference": "c727d96114325ec7c4d971b3ee07c93cc7d5bb90",
+                "url": "https://api.github.com/repos/Erebot/Erebot_Module_Skeleton_Doc/zipball/49d5da55fdda7694a51fbb4675566debedf3a10b",
+                "reference": "49d5da55fdda7694a51fbb4675566debedf3a10b",
                 "shasum": ""
             },
             "require": {
-                "erebot/installers": "dev-master"
+                "erebot/installers": "*"
             },
             "type": "erebot-generic-doc",
             "extra": {
@@ -48,7 +48,7 @@
                 "documentation",
                 "irc"
             ],
-            "time": "2013-08-16 20:31:07"
+            "time": "2014-01-03 16:28:56"
         },
         {
             "name": "erebot/installers",
@@ -56,12 +56,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Erebot_Installers.git",
-                "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272"
+                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/b20c804c270bc6cb51923a6f81cc1ad3b6b09272",
-                "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272",
+                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
+                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
                 "shasum": ""
             },
             "type": "composer-installer",
@@ -95,7 +95,7 @@
                 "installers",
                 "irc"
             ],
-            "time": "2013-06-27 21:08:41"
+            "time": "2013-10-20 20:39:40"
         }
     ],
     "packages-dev": [
@@ -104,7 +104,7 @@
     "aliases": [
 
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "erebot/installers": 20,
         "erebot/generic-doc": 20

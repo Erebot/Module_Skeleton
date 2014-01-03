@@ -1,4 +1,5 @@
 {
+    "minimum-stability": "dev",
     "name": "erebot/skeleton-module",
     "description": "Skeleton for a new module designed for Erebot",
     "keywords": ["Erebot", "IRC", "bot", "module"],
