@@ -1,22 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "e0b8bc1376b2de3f191e4f3df05cb745",
+    "hash": "b2e3269240b93a12b9e0ab361a226e77",
     "packages": [
         {
             "name": "erebot/generic-doc",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Erebot/Erebot_Module_Skeleton_Doc.git",
-                "reference": "49d5da55fdda7694a51fbb4675566debedf3a10b"
+                "url": "https://github.com/Erebot/GenericDoc.git",
+                "reference": "f3f960e48b0a188161390c1566a13195e524bfc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Erebot_Module_Skeleton_Doc/zipball/49d5da55fdda7694a51fbb4675566debedf3a10b",
-                "reference": "49d5da55fdda7694a51fbb4675566debedf3a10b",
+                "url": "https://api.github.com/repos/Erebot/GenericDoc/zipball/f3f960e48b0a188161390c1566a13195e524bfc4",
+                "reference": "f3f960e48b0a188161390c1566a13195e524bfc4",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +41,7 @@
                 }
             ],
             "description": "Generic documentation for Erebot modules",
-            "homepage": "https://github.com/Erebot/Erebot_Module_Skeleton",
+            "homepage": "https://github.com/Erebot/GenericDoc",
             "keywords": [
                 "Erebot",
                 "bot",
@@ -48,20 +49,20 @@
                 "documentation",
                 "irc"
             ],
-            "time": "2014-01-03 16:28:56"
+            "time": "2015-03-29 15:31:44"
         },
         {
             "name": "erebot/installers",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Erebot/Erebot_Installers.git",
-                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce"
+                "url": "https://github.com/Erebot/Installers.git",
+                "reference": "8b90483ee69f98b7c0cfe6b42cdb3979f930c7fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
-                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
+                "url": "https://api.github.com/repos/Erebot/Installers/zipball/8b90483ee69f98b7c0cfe6b42cdb3979f930c7fd",
+                "reference": "8b90483ee69f98b7c0cfe6b42cdb3979f930c7fd",
                 "shasum": ""
             },
             "type": "composer-installer",
@@ -72,8 +73,8 @@
                 "class": "Erebot\\Composer\\GenericDocInstaller"
             },
             "autoload": {
-                "psr-0": {
-                    "Erebot\\Composer": "src/"
+                "psr-4": {
+                    "Erebot\\Composer\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -88,31 +89,27 @@
                 }
             ],
             "description": "Composer installers for Erebot",
-            "homepage": "https://github.com/Erebot/Erebot_Installers",
+            "homepage": "https://github.com/Erebot/Installers",
             "keywords": [
                 "Erebot",
                 "bot",
                 "installers",
                 "irc"
             ],
-            "time": "2013-10-20 20:39:40"
+            "time": "2015-03-29 15:29:28"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "erebot/installers": 20,
         "erebot/generic-doc": 20
     },
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.2.2"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

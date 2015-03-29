@@ -3,7 +3,7 @@
     "name": "erebot/skeleton-module",
     "description": "Skeleton for a new module designed for Erebot",
     "keywords": ["Erebot", "IRC", "bot", "module"],
-    "homepage": "https://github.com/Erebot/Erebot_Module_Skeleton",
+    "homepage": "https://github.com/Erebot/Module_Skeleton",
     "license": "GPL-3.0+",
     "authors": [
         {
@@ -14,10 +14,10 @@
     ],
     "support": {
         "email": "erebot@erebot.net",
-        "issues": "https://github.com/Erebot/Erebot_Module_Skeleton/issues",
-        "wiki": "http://erebot.github.io/Erebot_Module_Skeleton/",
+        "issues": "https://github.com/Erebot/Module_Skeleton/issues",
+        "wiki": "http://erebot.github.io/Module_Skeleton/",
         "irc": "irc://irc.iiens.net/Erebot",
-        "source": "https://github.com/Erebot/Erebot_Module_Skeleton"
+        "source": "https://github.com/Erebot/Module_Skeleton"
     },
     "require": {
         "php": ">=5.2.2",
