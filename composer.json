@@ -1,5 +1,5 @@
 {
-    "minimum-stability": "dev",
+    "prefer-stable": true,
     "name": "erebot/skeleton-module",
     "description": "Skeleton for a new module designed for Erebot",
     "keywords": ["Erebot", "IRC", "bot", "module"],
@@ -13,20 +13,23 @@
         }
     ],
     "support": {
-        "email": "erebot@erebot.net",
         "issues": "https://github.com/Erebot/Module_Skeleton/issues",
-        "wiki": "http://erebot.github.io/Module_Skeleton/",
         "irc": "irc://irc.iiens.net/Erebot",
         "source": "https://github.com/Erebot/Module_Skeleton"
     },
     "require": {
-        "php": ">=5.2.2",
+        "php": ">=5.3.0",
+        "erebot/api": "dev-master",
         "erebot/installers": "dev-master",
         "erebot/generic-doc": "dev-master"
     },
+    "require-dev": {
+        "erebot/buildenv": "*",
+        "erebot/testenv": "*"
+    },
     "autoload": {
-        "psr-0": {
-            "Erebot": "src/"
+        "psr-4": {
+            "Erebot\\Module\\": "src/"
         }
     },
     "extra": {
