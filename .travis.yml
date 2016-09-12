@@ -13,6 +13,7 @@ php:
     - 5.5
     - 5.6
     - 7.0
+    - 7.1
     - nightly
     - hhvm
 
@@ -25,11 +26,13 @@ notifications:
     irc: "irc.iiens.net#Erebot"
 
 before_script:
+    - rm composer.lock
     - composer self-update -n
     - composer install -n
 
 script:
     - vendor/bin/phpunit --coverage-clover clover.xml
+    - vendor/bin/phpcs
 
 after_success:
     - composer require --dev satooshi/php-coveralls
